@@ -36,6 +36,8 @@ body {
   
   #img-caption {
     font-size: .9em;
+    max-width: 60vw;
+    margin: auto;
   }
   
   #tribute-info {
