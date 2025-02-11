@@ -1,76 +1,118 @@
+/*
+  Josh's Custom CSS Reset
+*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
 body {
-    background-image: url("https://images.unsplash.com/photo-1553375388-5917bf50a7ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-  }
-  
-  header {
-    text-align: center;
-    width: 35vw;
-    margin: 30px auto;
-  }
-  
-  h1 {
-    font-family: "Libre Baskerville";
-    color: white;
-    font-size: 2em;
-  }
-  
-  p, article, h3 {
-    font-family: "Montserrat";
-    color: white;
-    line-height: 1.5;
-  }
-  
-  #img-div {
-    text-align: center;
-    color: white;
-    font-family: "Montserrat";
-  }
-  
-  #image {
-    display: block;
-    max-width: 100%;
-    width: 70vw;
-    margin: auto;
-    margin-bottom: 2em;
-  }
-  
-  #img-caption {
-    font-size: .9em;
-    max-width: 60vw;
-    margin: auto;
-  }
-  
-  #tribute-info {
-    width: 65vw;
-    margin: 2em auto;
-    border: 2px solid white;
-    padding: 1em 2em;
-    background-color: rgb(0, 0, 0, .7);
-  }
-  
-  h3 {
-    text-align: center;
-    font-size: 1.4em;
-  }
-  
-  .info {
-    margin: 1.5em auto;
-  }
-  
-  .date {
-    font-weight: bold;
-  }
-  
-  footer {
-    width: 40vw;
-    text-align: center;
-    margin: auto;
-  }
-  
-  #footer-p {
-    font-style: italic;
-  }
-  
-  a {
-    color: #00DDFF;
-  }
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1553375388-5917bf50a7ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+header {
+  text-align: center;
+  width: 35vw;
+  margin: 30px auto;
+}
+
+h1 {
+  font-family: "Libre Baskerville";
+  color: white;
+  font-size: 2em;
+  margin: 10px auto;
+}
+
+p, article, h3 {
+  font-family: "Montserrat";
+  color: white;
+  line-height: 1.5;
+}
+
+#img-div {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat";
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  width: 70vw;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+#img-caption {
+  font-size: .9em;
+  max-width: 60vw;
+  margin: auto;
+}
+
+#tribute-info {
+  width: 65vw;
+  margin: 2em auto;
+  border: 2px solid white;
+  padding: 1em 2em;
+  background-color: rgb(0, 0, 0, .7);
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.info {
+  margin: 1.5em auto;
+}
+
+.date {
+  font-weight: bold;
+}
+
+footer {
+  width: 40vw;
+  text-align: center;
+  margin: auto;
+}
+
+#footer-p {
+  font-style: italic;
+}
+
+a {
+  color: #00DDFF;
+}
